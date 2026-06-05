@@ -33,16 +33,16 @@ export default function Nav() {
 
   return (
     <header className="bg-surface border-b border-foreground/10 sticky top-0 z-50">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-20">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-36">
 
         {/* Logo */}
         <Link href="/" className="flex items-center shrink-0" onClick={() => setMobileOpen(false)}>
           <Image
             src="/logo.svg"
             alt="MEDIUM Art Center"
-            width={160}
-            height={80}
-            className="h-16 w-auto"
+            width={320}
+            height={160}
+            className="h-32 w-auto"
             priority
           />
         </Link>

@@ -8,7 +8,7 @@ const currentExhibition = {
   dates: "May 3 – June 28, 2025",
   description:
     "A vibrant exploration of sanctuary, belonging, and the healing power of color. Hernández invites viewers into intimate spaces where hue and form become a language of refuge.",
-  image: "https://images.unsplash.com/photo-1531058020387-3be344556be6?w=1600&q=80",
+  image: "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=1600&q=80",
   href: "/exhibitions",
 };
 
@@ -55,7 +55,7 @@ export default function HomePage() {
             src={currentExhibition.image}
             alt={currentExhibition.title}
             fill
-            className="object-cover opacity-40"
+            className="object-cover opacity-60"
             priority
             sizes="100vw"
           />

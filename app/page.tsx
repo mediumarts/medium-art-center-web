@@ -49,32 +49,32 @@ export default function HomePage() {
   return (
     <>
       {/* Hero — Current Exhibition */}
-      <section className="relative bg-accent overflow-hidden">
+      <section className="relative bg-foreground text-background overflow-hidden">
         <div className="absolute inset-0">
           <Image
             src={currentExhibition.image}
             alt={currentExhibition.title}
             fill
-            className="object-cover opacity-20"
+            className="object-cover opacity-40"
             priority
             sizes="100vw"
           />
         </div>
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-24 md:py-36">
-          <p className="text-foreground text-sm font-medium uppercase tracking-widest mb-4">
+          <p className="text-accent text-sm font-medium uppercase tracking-widest mb-4">
             Current Exhibition
           </p>
-          <h1 className="text-4xl md:text-6xl text-foreground mb-3 leading-tight max-w-2xl">
+          <h1 className="text-4xl md:text-6xl text-background mb-3 leading-tight max-w-2xl">
             {currentExhibition.title}
           </h1>
-          <p className="text-foreground text-lg mb-2">{currentExhibition.artist}</p>
-          <p className="text-foreground/70 text-sm mb-6">{currentExhibition.dates}</p>
-          <p className="text-foreground/80 max-w-xl mb-8 leading-relaxed">
+          <p className="text-background/70 text-lg mb-2">{currentExhibition.artist}</p>
+          <p className="text-background/50 text-sm mb-6">{currentExhibition.dates}</p>
+          <p className="text-background/80 max-w-xl mb-8 leading-relaxed">
             {currentExhibition.description}
           </p>
           <Link
             href={currentExhibition.href}
-            className="inline-flex items-center gap-2 bg-foreground text-background px-6 py-3 text-sm font-semibold hover:bg-foreground/80 transition-colors"
+            className="inline-flex items-center gap-2 bg-accent text-foreground px-6 py-3 text-sm font-semibold hover:bg-accent/90 transition-colors"
           >
             View Exhibition
             <svg className="w-4 h-4" viewBox="0 0 16 16" fill="none">

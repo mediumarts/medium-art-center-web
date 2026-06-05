@@ -61,14 +61,14 @@ export default function HomePage() {
           />
         </div>
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-24 md:py-36">
-          <p className="text-foreground/60 text-sm font-medium uppercase tracking-widest mb-4">
+          <p className="text-foreground text-sm font-medium uppercase tracking-widest mb-4">
             Current Exhibition
           </p>
           <h1 className="text-4xl md:text-6xl text-foreground mb-3 leading-tight max-w-2xl">
             {currentExhibition.title}
           </h1>
-          <p className="text-foreground/70 text-lg mb-2">{currentExhibition.artist}</p>
-          <p className="text-foreground/60 text-sm mb-6">{currentExhibition.dates}</p>
+          <p className="text-foreground text-lg mb-2">{currentExhibition.artist}</p>
+          <p className="text-foreground/70 text-sm mb-6">{currentExhibition.dates}</p>
           <p className="text-foreground/80 max-w-xl mb-8 leading-relaxed">
             {currentExhibition.description}
           </p>

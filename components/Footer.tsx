@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import TranslateWidget from "./TranslateWidget";
 
 const socials = [
   { label: "Instagram", href: "https://instagram.com/mediumartcenter", icon: (
@@ -89,6 +90,7 @@ export default function Footer() {
             >
               info@mediumarts.org
             </a>
+            <TranslateWidget />
           </div>
         </div>
 

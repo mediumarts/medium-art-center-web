@@ -38,11 +38,11 @@ export default function Nav() {
         {/* Logo */}
         <Link href="/" className="flex items-center shrink-0" onClick={() => setMobileOpen(false)}>
           <Image
-            src="/logo-wordmark.svg"
+            src="/logo.svg"
             alt="MEDIUM Art Center"
-            width={160}
-            height={40}
-            className="h-9 w-auto"
+            width={120}
+            height={60}
+            className="h-12 w-auto"
             priority
           />
         </Link>

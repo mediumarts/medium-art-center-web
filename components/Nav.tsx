@@ -33,7 +33,7 @@ export default function Nav() {
 
   return (
     <header className="bg-surface border-b border-foreground/10 sticky top-0 z-50">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-36 py-4">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-36 py-8">
 
         {/* Logo */}
         <Link href="/" className="flex items-center shrink-0" onClick={() => setMobileOpen(false)}>

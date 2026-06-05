@@ -74,7 +74,7 @@ export default function HomePage() {
           </p>
           <Link
             href={currentExhibition.href}
-            className="inline-flex items-center gap-2 bg-accent text-foreground px-6 py-3 text-sm font-semibold hover:bg-accent/90 transition-colors"
+            className="inline-flex items-center gap-2 bg-accent text-foreground px-6 py-3 text-sm font-semibold hover:bg-accent/90 transition-colors rounded-full"
           >
             View Exhibition
             <svg className="w-4 h-4" viewBox="0 0 16 16" fill="none">
@@ -159,7 +159,7 @@ export default function HomePage() {
             </p>
             <Link
               href="/support/donate"
-              className="inline-flex items-center gap-2 bg-accent text-foreground px-6 py-3 text-sm font-semibold hover:bg-accent/90 transition-colors"
+              className="inline-flex items-center gap-2 bg-accent text-foreground px-6 py-3 text-sm font-semibold hover:bg-accent/90 transition-colors rounded-full"
             >
               Make a Donation
             </Link>
@@ -181,7 +181,7 @@ export default function HomePage() {
               />
               <button
                 type="submit"
-                className="px-6 py-3 bg-foreground text-background text-sm font-semibold hover:bg-foreground/90 transition-colors shrink-0"
+                className="px-6 py-3 bg-foreground text-background text-sm font-semibold hover:bg-foreground/90 transition-colors shrink-0 rounded-full"
               >
                 Subscribe
               </button>
